@@ -13,7 +13,7 @@ class taskController extends Controller
      */
     public function index()
     {
-        //
+        return inertia('task/index',[]);
     }
 
     /**
