@@ -2,7 +2,8 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import React from 'react';
 
-const index = () => {
+const index = ({project}) => {
+  console.log(project)
   return (
    <AuthenticatedLayout
    header={
