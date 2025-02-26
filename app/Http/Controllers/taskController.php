@@ -21,7 +21,7 @@ class taskController extends Controller
      */
     public function create()
     {
-        //
+        return inertia('task/index',[]);
     }
 
     /**
